@@ -14,6 +14,14 @@ let descs = [
     text: "Develop Technical skills and ability to innovate Like Tilak Mehta",
     src: "images/Tilak-Mehta.jpeg",
   },
+  {
+    text: "This Decade belongs to Indian Entrepreneurs.",
+    src: "https://www.pinkvilla.com/imageresize/anupam_mittal_main.jpg?width=752&format=webp&t=pvorg",
+  },
+  {
+    text: "Learn from successful children Entrepreneurs, product managers from MNCs, IIT ,IIM graduates",
+    src: "https://ychef.files.bbci.co.uk/976x549/p0202jwh.jpg",
+  },
 ];
 
 ham.addEventListener("click", () => {
@@ -27,7 +35,7 @@ ham.addEventListener("click", () => {
 let desc = document.getElementById("desc");
 let img = document.getElementById("desc-img");
 
-let globalCount = 1;
+let globalCount = 3;
 
 setInterval(() => {
   let { text, src } = descs[globalCount];
