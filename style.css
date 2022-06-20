@@ -258,6 +258,41 @@ nav {
   cursor: pointer;
 }
 
+#Philanthropy {
+  width: 60vw;
+  border-radius: 0.5rem;
+  overflow: hidden;
+  margin: 0 auto;
+  background-size: 1000px;
+  background-position: -6rem -2rem;
+  background-image: url("images/children.jpg");
+  color: white;
+}
+#Philanthropy div {
+  background-color: #33333377;
+  padding: 2rem;
+  width: fit-content;
+}
+#Philanthropy div * {
+  font-size: 1.25rem;
+  color: white;
+  width: 15rem;
+}
+#Philanthropy button {
+  outline: none;
+  font-size: 1rem;
+  border: 2px solid white;
+  color: white;
+  margin: 1.5rem 0;
+  padding: 1rem 1rem;
+  transition: all 0.5s;
+  background-color: transparent;
+}
+#Philanthropy button:hover {
+  background-color: black;
+  cursor: pointer;
+}
+
 footer {
   margin: 2rem 0 0;
   padding: 2rem;
