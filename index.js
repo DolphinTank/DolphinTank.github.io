@@ -4,15 +4,15 @@ let ham = document.getElementById("ham");
 let descs = [
   {
     text: "Find The Next Mark Zuckerburg Inside Your Child !",
-    src: "https://upload.wikimedia.org/wikipedia/commons/1/18/Mark_Zuckerberg_F8_2019_Keynote_%2832830578717%29_%28cropped%29.jpg",
+    src: "images/zuckerburg.jpg",
   },
   {
     text: "Learn Problem-Identifying and Solving skills Like Rithesh Agarwal",
-    src: "https://businessconnectindia.in/wp-content/uploads/2020/08/ritesh-agarwal.jpg",
+    src: "images/ritesh-agarwal.jpg",
   },
   {
     text: "Develop Technical skills and ability to innovate Like Tilak Mehta",
-    src: "https://businessconnectindia.in/wp-content/uploads/2020/08/Tilak-Mehta.jpeg",
+    src: "images/Tilak-Mehta.jpeg",
   },
 ];
 
