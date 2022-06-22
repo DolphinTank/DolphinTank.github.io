@@ -300,12 +300,14 @@ nav {
 }
 
 footer {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
   margin: 2rem 0 0;
   padding: 2rem;
   background-color: #222222;
+}
+footer .contact {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 footer a {
